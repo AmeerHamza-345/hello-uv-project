@@ -77,3 +77,4 @@ uv run kickoff
 uv run Q2
 uv run theam
     ```
+![alt text](image.png)
