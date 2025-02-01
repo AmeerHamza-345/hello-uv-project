@@ -7,11 +7,20 @@
 To install the project, ensure you have Python 3.12 or higher installed. You can install the project dependencies using the following command:
 
 ```sh
+uv init --package hello-uv-project
+
 pip install .
 python -m hello_uv_project
 python -m hello_uv_project.main
 python -m hello_uv_project.second.second
-
+```
+## Usage
+To run the project, navigate to the project directory and execute the following commands:
+```sh
+uv run theam
+uv run Q2
+uv run kickoff
+```
 
 
 # hello_uv_project
