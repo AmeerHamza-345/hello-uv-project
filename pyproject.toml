@@ -1,0 +1,20 @@
+[project]
+name = "hello-uv-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ameer Hamza", email = "ah03016875282@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+hello-uv-project = "hello_uv_project:main"
+kickoff = "hello_uv_project:main"
+Q2 = "hello_uv_project.main:main"
+theam = "hello_uv_project.second.second:theam"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
